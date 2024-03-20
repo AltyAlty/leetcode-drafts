@@ -32,64 +32,64 @@ It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------*/
 
-// My Solution
+// My solution
 
-// var romanToInt = function (s) {
-//     let orders = [];
+var romanToInt = function (s) {
+    let orders = [];
 
-//     for (let i = 0; i < s.length; i++) {
-//         switch (s[i]) {
-//             case 'I':
-//                 orders.push(1);
-//                 break;
+    for (let i = 0; i < s.length; i++) {
+        switch (s[i]) {
+            case 'I':
+                orders.push(1);
+                break;
 
-//             case 'V':
-//                 orders.push(5);
-//                 break;
+            case 'V':
+                orders.push(5);
+                break;
 
-//             case 'X':
-//                 orders.push(10);
-//                 break;
+            case 'X':
+                orders.push(10);
+                break;
 
-//             case 'L':
-//                 orders.push(50);
-//                 break;
+            case 'L':
+                orders.push(50);
+                break;
 
-//             case 'C':
-//                 orders.push(100);
-//                 break;
+            case 'C':
+                orders.push(100);
+                break;
 
-//             case 'D':
-//                 orders.push(500);
-//                 break;
+            case 'D':
+                orders.push(500);
+                break;
 
-//             case 'M':
-//                 orders.push(1000);
-//                 break;
+            case 'M':
+                orders.push(1000);
+                break;
 
-//             default:
-//                 break;
-//         };
-//     };
+            default:
+                break;
+        };
+    };
 
-//     let result = 0;
+    let result = 0;
 
-//     for (let i = orders.length - 1; i >= 0; i--) {
-//         if (i === 0) {
-//             result = result + orders[i];
-//             break;
-//         };
+    for (let i = orders.length - 1; i >= 0; i--) {
+        if (i === 0) {
+            result = result + orders[i];
+            break;
+        };
 
-//         if (orders[i] <= orders[i - 1]) {
-//             result = result + orders[i]; // 1 2
-//         } else {
-//             result = result + (orders[i] - orders[i - 1]);
-//             i--;
-//         };
-//     };
+        if (orders[i] <= orders[i - 1]) {
+            result = result + orders[i]; // 1 2
+        } else {
+            result = result + (orders[i] - orders[i - 1]);
+            i--;
+        };
+    };
 
-//     return result;
-// };
+    return result;
+};
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------*/
 

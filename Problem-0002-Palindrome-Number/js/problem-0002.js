@@ -6,7 +6,7 @@ Given an integer x, return true if x is a palindrome, and false otherwise.
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------*/
 
-// My Solution
+// My solution
 
 var isPalindrome = function (x) {
     let xString = x.toString();

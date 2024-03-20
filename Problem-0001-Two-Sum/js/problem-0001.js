@@ -8,7 +8,7 @@ You can return the answer in any order.
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------*/
 
-// My Solution
+// My solution
 
 var twoSum = function (nums, target) {
     for (let i = 0; i < nums.length; i++) {
