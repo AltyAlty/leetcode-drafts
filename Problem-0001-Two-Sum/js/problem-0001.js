@@ -23,8 +23,7 @@ var twoSum = function (nums, target) {
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------*/
 
-// Not my solution but much better
-
+// Not my solution but faster
 // var twoSum = function (nums, target) {
 //     if (nums.length < 2) { return [] };
 
