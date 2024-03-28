@@ -69,7 +69,7 @@ var isValid = function (s) {
 //     // so the string is valid, otherwise, there are unmatched opening brackets, so return false
 // };
 
-// Not my solution but faster
+// Not my solution but works faster
 
 // var isValid = function (s) {
 //     let stack = [];

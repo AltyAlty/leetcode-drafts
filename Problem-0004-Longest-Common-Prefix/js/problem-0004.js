@@ -42,7 +42,7 @@ var longestCommonPrefix = function (strs) {
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------*/
 
-// Not my solution but faster
+// Not my solution but works faster
 
 // var longestCommonPrefix = function (strs) {
 //     if (strs.length === 0) return ''; // If the array is empty, return an empty string.

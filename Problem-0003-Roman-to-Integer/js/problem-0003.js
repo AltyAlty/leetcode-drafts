@@ -93,7 +93,7 @@ var romanToInt = function (s) {
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------*/
 
-// Not my solution but faster
+// Not my solution but works faster
 
 // const algorism = new Map([
 //     ['CM', 900],

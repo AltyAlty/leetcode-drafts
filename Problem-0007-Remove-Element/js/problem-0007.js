@@ -37,7 +37,7 @@ var removeElement = function (nums, val) {
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------*/
 
-// Not my solution but faster and uses less memory
+// Not my solution but works faster and uses less memory
 
 // var removeElement = function (nums, val) {
 //     let k = 0;

@@ -103,7 +103,7 @@ var removeDuplicates = function (nums) {
 //     return k;
 // };
 
-// Not my solution but faster
+// Not my solution but works faster
 
 // var removeDuplicates = function(nums) {
 //     // Length of the updated array

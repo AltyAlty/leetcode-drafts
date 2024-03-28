@@ -23,7 +23,7 @@ var isPalindrome = function (x) {
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------*/
 
-// Not my solution but faster
+// Not my solution but works faster
 
 // var isPalindrome = function (x) {
 //     let newX = x.toString();
