@@ -7,7 +7,7 @@ The overall run time complexity should be "O(log (m+n))".
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------*/
 
-// My solution
+// My solution (I guess its worse than "O(log (m+n))")
 
 var findMedianSortedArrays = function (nums1, nums2) {
     var sortedArray = [].concat(nums1, nums2).sort((a, b) => a - b);
